@@ -36,13 +36,15 @@ Nada de confusão ou planilhas difíceis — aqui você encontra clareza, autono
 - Design System moderno (cores, sombras, tipografia inspirada em apps financeiros)
 
 ## 📂 Estrutura do Projeto
+```plaintext
 Maze_FinTech/
 ├── src/
-│   ├── css/          # estilos
-│   └── assets/       # imagens, ícones, etc.
-├── index.html
-├── LICENSE
-└── README.md
+│   ├── css/          # Estilos (cores, layout, responsividade)
+│   └── assets/       # Imagens, ícones e arquivos estáticos
+├── index.html         # Tela inicial da aplicação
+├── LICENSE            # Licença MIT
+└── README.md          # Documentação do projeto
+```
 
 ## 🚧 Status do Projeto
 
