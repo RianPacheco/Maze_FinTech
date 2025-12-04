@@ -26,7 +26,7 @@ Nada de confusão ou planilhas difíceis — aqui você encontra clareza, autono
 
 ## 🖥️ Preview
 
-<img src="./src/assets/preview.jpg" alt="Preview Mobile" width="300"/>
+<img src="./src/assets/image/preview.JPG" alt="Preview Mobile" width="300"/>
 
 ## 🛠️ Tecnologias Utilizadas
 
