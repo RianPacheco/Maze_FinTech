@@ -1,0 +1,113 @@
+:root {
+  --bg-primary: #fa631f;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--bg-primary);
+}
+
+.body {
+  display: flex;
+  align-itens: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+}
+
+header {
+  margin-top: 90px;
+}
+
+header img {
+  width: 137px;
+  margin-right: 260px;
+}
+
+header p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-size: 11px;
+  font-style: italic;
+  text-align: left;
+  margin: 10px 0 0 30px;
+  width: 92%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-size: 13px;
+  font-style: italic;
+}
+
+section img {
+  width: 17px;
+  height: 17px;
+  margin: 8px;
+}
+
+section button {
+  height: 50px;
+  width: 80%;
+  border-radius: 40px;
+}
+
+section:nth-child(1) {
+  margin-top: 40px;
+  gap: 20px;
+}
+
+section:nth-child(3) {
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.division {
+  display: flex;
+  align-items: center;
+  width: 94%;
+  gap: 12px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.division::before,
+.division::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.division span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+footer {
+  margin-top: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-size: 13px;
+  font-style: italic;
+}
